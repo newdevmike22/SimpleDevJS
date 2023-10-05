@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <style>
+        .add-button {
+            background: orange;
+        }
+
+        .add-button-2 {
+            background: yellow;
+        }
+
+        .buy-button {
+            background: yellow;
+        }
+
+        .buy-button-2 {
+            background: orange;
+        }
+
+        .container {
+            border: 1px solid black;
+            max-width: 380px;
+            margin: 2rem auto;
+            padding: 0.5rem 1rem 1.5rem 1.5rem;
+        }
+    </style>
+</head>
+<body>
+   <div>
+    <h2>
+        <ol>
+            <li>Create a button with the text 'Click' inside</li>
+            <li>Create 2 buttons. 1 with your name and the other with your favorite food.</li>
+            <li>Create a paragraph with the text 'Hello World!' inside.</li>
+            <li>Create 2 buttons named 'Add to cart' and 'Buy now'. Make the add button orange and the buy yellow.</li>
+            <li>Change the title of the document to 'Buttons'</li>
+            <li>Add an internal script tag that displays an alert that says 'Welcome!'.</li>
+        </ol>
+    </h2>
+   </div>
+   <button>Click</button><br/>
+   <button>Mike</button><button>Chicken</button>
+   <p>Hello World!</p>
+   <p>Today I worked on my coding skills.</p>
+   <button class="add-button">Add To Cart</button> <button class="buy-button">Buy Now</button>
+
+   <div>
+        <h1>Challenge Exercise</h1>
+        <h2>
+            <ol>
+                <li>Create a box that contains 'Adults Plain Cotton T-shirt' on the 1st line.</li>
+                <li>Create a 2nd line that says 'Price: $7.99'.</li>
+                <li>On the 3rd line create 2 buttons.</li>
+                <li>The 1st button will say 'Add to cart'. Make the button yellow.</li>
+                <li>Add an onclick to the yellow button that will produce a popup that says 'Added'.</li>
+                <li>The 2nd button will say 'Buy now'. Make the button orange.</li>
+                <li>Add an onclick to the orange button that will produce a popup that says 'Purchased'.</li>
+                <li>When the orange button is clicked a message that says 'Loading...' should appear in the console.</li>
+            </ol>
+        </h2>
+   </div>
+   <div class="container">
+        <h1>Adults Plain Cotton T-shirt</h1>
+        <h1>Price: $7.99</h1>
+        <button class="add-button-2" onclick="alert('Added!')">Add To Cart</button> <button class="buy-button-2" onclick="alert('Purchased!'), console.log('Loading...')">Buy Now</button>
+   </div>
+   <script>
+        //alert('Welcome!');
+   </script>
+</body>
+</html>
